@@ -16,9 +16,10 @@ body{
     background-color: rgb(51, 48, 6);
 }
 #Logo{
-    width: 15%;
+    width: 12%;
     float:left;
-    position:relative
+    position:relative;
+    filter: brightness(100%);
 }
 header{
     text-align: center;
