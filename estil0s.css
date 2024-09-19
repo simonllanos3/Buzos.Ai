@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gloria+Hallelujah&family=Shadows+Into+Light&display=swap');
 h1{
     color: rgb(255, 255, 255);
-    background-size: 120%;
+    background-size: 5em;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: "Gloria Hallelujah", cursive;
@@ -16,16 +16,18 @@ body{
     background-color: rgb(51, 48, 6);
 }
 #Logo{
-    width: 12%;
+    width: 10%;
     float:left;
     position:relative;
     filter: brightness(100%);
 }
 header{
     text-align: center;
+
 }
 h1{
-    font-size: 4em;
+    font-size: 3em;
+    padding: 10px;
 }
 h2{
     color: rgb(255, 255, 255);
@@ -34,19 +36,40 @@ h2{
 }
 a{
     text-decoration: solid;
-    color: rgb(8, 5, 0);
-    margin: 20px;
-    padding: 10 px;
+    color: rgb(231, 224, 212);
+    margin: 25px 90px;
+    padding: 20 px;
+    font-size: large;
+    height: 1%;
     border: 2 px rgb(216, 163, 163);
 }
 a:hover{
-    color: rgb(240, 148, 82);
-    background-color: rgb(44, 3, 3);
+    color: rgb(252, 105, 0);
 }
 nav{
+    margin: 100px 0px;
     text-align: center;
-    padding: 20px;
-    width: 60%;
+    padding: 25px;
+    position: relative;
+    left: 10 px;
+    height: 2%;
     border: 1px solid black;
-    background-color: rgba(255, 225, 196, 0.829);
+    background-color: rgba(100, 85, 70, 0.829);
+}
+.Marcax{
+    background-image: url(images/waallpaper.jpg);
+}
+.headermarca{
+    background-image: url("images/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: 10%;
+}
+.Sexox{
+    background-image: url(images/sexo.jpg);
+}
+.Deportex{
+    background-image: url(images/deporte.jpg);
+}
+.Sorteox{
+    background-image: url(images/sorteox.jpg);
 }
