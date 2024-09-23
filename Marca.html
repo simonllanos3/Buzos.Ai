@@ -7,6 +7,7 @@
         <meta name="description" content="Página dedicada a un catálogo de buzos según el estilo de cada uno">
         <meta name="author" content="Simón Llanos">
         <link rel="stylesheet" href="estil0s.css" type="text/css">
+        <script src="javaScrpt.js"></script>
     </head>
     <body class="Marcax">
         <header class="headermarca">
@@ -14,23 +15,23 @@
         </header>
 
        <main>
-        <select name="MARCAS"
-        <input type="placeholder" name="SELECCIONE LA MARCA DEL BUZO">
-            <option>ELIGE UNA OPCIÓN</option>
-            <option>LUIS BUTTON</option>
-            <option>VANS</option>
-            <option>UNDEFINED</option>
-            <option>NIKE</option>
-            <option>ADIDAS</option>
-            <option>ZARA</option>
-            <option>GUCCI</option>
-            <option>TOMMY HILFIGER</option>
-            <option>CHANEL</option>
-            <option>LEVIS</option>
-            <option>LACOSTE</option>
+        <select name="MARCAS" id="MARCAS" onchange="APLICARFILTRO(this.value)">
+            <option value="opcion">ELIGE UNA OPCIÓN</option>
+            <option value="VANS">VANS</option>
+            <option value="UNDEFINED">UNDEFINED</option>
+            <option value="NIKE">NIKE</option>
+            <option value="ADIDAS">ADIDAS</option>
+            <option value="ZARA">ZARA</option>
+            <option value="GUCCI">GUCCI</option>
+            <option value="AMERICAN EAGLE">AMERICAN EAGLE</option>
+            <option value="ABERCROMBIE">ABERCROMBIE</option>
+            <option value="BILLABONG">BILLABONG</option>
+            <option value="COLUMBIA">COLUMBIA</option>
+            <option value="RIPCURL">RIPCURL</option>
+            <option value="LEVIS">LEVIS</option>
+            <option value="LACOSTE">LACOSTE</option>
         </select>
-       </main>
-       
-           
+        <section class="listado-buzos"></section>
+       </main>  
     </body>
 </html>
