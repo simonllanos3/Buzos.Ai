@@ -34,7 +34,7 @@ h2{
     font-size: 1em;
     margin: -60px 0px 5px; 
 }
-a{
+nav a{
     text-decoration: solid;
     color: rgb(231, 224, 212);
     margin: 25px 90px;
@@ -43,7 +43,7 @@ a{
     height: 1%;
     border: 2 px rgb(216, 163, 163);
 }
-a:hover{
+nav a:hover{
     color: rgb(252, 105, 0);
 }
 nav{
@@ -72,6 +72,23 @@ nav{
 }
 .Sorteox{
     background-image: url(images/sorteox.jpg);
+}
+.listado-buzos{
+    display:grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.card{
+    color: white;
+    margin: 15px;
+    padding: 15px;
+}
+.card img{
+    width:100%
+}
+.Estilox{
+    background-image: url(images/WALLPAPER\ STYLE.jpg);
 }
 
  

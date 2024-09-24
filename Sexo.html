@@ -7,21 +7,22 @@
         <meta name="description" content="Página dedicada a un catálogo de buzos según el estilo de cada uno">
         <meta name="author" content="Simón Llanos">
         <link rel="stylesheet" href="estil0s.css" type="text/css">
+        <script src="javaScrpt.js"></script>
     </head>
     <body class="Sexox">
         <header>
-            <img src= "images/logo.jpg" alt="Logo Página" id="Logo">
+            <a href="index.html"><img src= "images/logo.jpg" alt="Logo Página" id="Logo"></a> 
             <h1>GÉNERO</h1> 
         </header>
         <main>
-            <select name="MARCAS"
-            <input type="placeholder" name="SELECCIONE LA MARCA DEL BUZO">
-                <option>ELIGE UNA OPCIÓN</option>
-                <option>FEMENINO</option>
-                <option>MASCULINO</option>
-                <option>UNISEX</option>
+            <select name="SEXO" id="SEXO" onchange="APLICARFILTRO(this.value)">
+                <option value="opcion">ELIGE UNA OPCIÓN</option>
+                <option value="FEMENINO">FEMENINO</option>
+                <option value="MASCULINO">MASCULINO</option>
+                <option value="UNISEX">UNISEX</option>
             </select>
-           </main>
+            <section class="listado-buzos-sexo"></section>
+        </main>
            
     </body>
 </html>

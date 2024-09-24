@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Buzos Ai</title>
+        <meta name="keywords" content="Buzos, Ropa, Marca, Prendas, Oversize, Moda">
+        <meta name="description" content="Página dedicada a un catálogo de buzos según el estilo de cada uno">
+        <meta name="author" content="Simón Llanos">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="estil0s.css" type="text/css">
+        <link rel="shortcut icon" href="images/logo.jpg">
+    </head>
+    <body class="Estilox">
+        <header>
+            <a href="index.html"><img src= "images/logo.jpg" alt="Logo Página" id="Logo"></a> 
+            <h1>Estilo</h1>
+        </header>
+        <main>
+            <select name="ESTILO" id="ESTILO" onchange="APLICARFILTRO(this.value)">
+                <option value="opcion">ELIGE UNA OPCIÓN</option>
+                <option value="OVERSIZE">OVERSIZE</option>
+                <option value="DEPORTIVOS">DEPORTIVOS</option>
+                <option value="VINTAGE">VINTAGE</option>
+                <option value="SUDADERAS">SUDADERAS</option>
+                <option value="SIN CAPUCHA">SIN CAPUCHA</option>
+                <option value="EGRESADOS">EGRESADOS</option>
+                <option value="CHAQUETAS">CHAQUETAS</option>
+                <option value="CAMPERAS">CAMPERAS</option>
+                <option value="LEÑADORAS">LEÑADORAS</option>
+            </select>
+            <section class="listado-buzos-estilo"></section>
+        </main>    
+    </body>
+</html>
