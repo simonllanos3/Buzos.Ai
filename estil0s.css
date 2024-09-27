@@ -126,3 +126,11 @@ nav{
 .Colorx{
     background-image: url(images/WAALPA.jpg);
 }
+
+@media (max-width:700px){
+    .listado-buzos{
+        display:grid;
+        grid-template-columns: auto;
+    
+    }
+}
